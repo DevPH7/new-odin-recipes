@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 159, 133);
+    margin: 10px 50px;
+}
+.titles{
+    color: white;
+    font-family: Helvetica, "Sans serif", serif;
+    /* padding: 5px; */
+    margin: 10px 0;
+}
+.list, 
+.order-list {
+    background-color: rgba(255, 255, 255, 0.692);
+    border:  1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2 );
+}
+ul {
+    list-style: inside;
+    margin: 20px 0;
+}
+ol {
+    list-style: decimal inside;
+    margin: 20px 0;
+}
+li {
+    padding: 15px;
+}
+
+.images {
+    height: 200px;
+    width: auto;
+    display: inline;
+}
